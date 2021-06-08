@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 import os
 
-FLICKR_PATH = '/NAS/data/SpeechCorpora/Flickr8k'
+FLICKR_PATH = '.'
 
 INPUT_FILENAME = 'Flickr8k.token.txt'
 # INPUT_FILENAME = 'Flickr8k.lemma.token.txt'

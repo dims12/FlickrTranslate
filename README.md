@@ -8,7 +8,7 @@
 
 - например, командами
 
-```bash
+```shell
     wget -q https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
     unzip -qq Flickr8k_text.zip
 ```
@@ -21,4 +21,10 @@
 
 - подробности должны быть на [страницах документации Гугл](https://cloud.google.com/translate/docs/setup#creating_service_accounts_and_keys).
 
-У меня процедура перевода заняла около 1 часа.
+в) запустите программу
+
+```shell
+python translate3.py
+```
+
+У меня процедура перевода заняла около 1 часа, скорость перевода составила около 10 фраз в секунду, всего было переведено 40k фраз (по данным tqdm и метрик Гугла)
